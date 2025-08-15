@@ -1,0 +1,575 @@
+body{
+    top: 0;
+    padding: 0;
+    margin: 0;
+    background-color: #F8F9FF;
+    max-width: 100vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100vw;
+    overflow-x: hidden;
+    height: 6030px;
+}
+header{
+    background-color: white;
+    width: 100vw;
+    margin-top:-15px;
+    box-shadow: 0 2px 7px rgba(58, 84, 180, 0.1);
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.icone{
+    scale: 90%;
+}
+.botao-header{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    width: 120px;
+    text-align: center;
+    border-radius: 8px;
+    border:none;
+}
+#saiba_mais{
+    padding: 13px;
+    font-weight: bold;
+    width: 145px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    margin-left: 690px;
+    background-color: #FF7655;
+    margin-top: 22px;
+    
+}
+a{
+    text-decoration: none;
+}
+#comece{
+    background-color: #FF7655;
+    color: white;
+    margin-right: 40px;
+}
+#comece_ja{
+    color: white;
+}
+
+#comece:hover,#saiba_mais:hover{
+    background-color: #D3422C;
+}
+
+#contato{
+    background-color: #D9DEF2;
+    position: relative;
+    left: 130px;
+}
+#contato:hover{
+    background-color: #ACB7DF;
+}
+#a_contato{
+    color: #384994;
+}
+.ajuda{
+    font-weight: bold;
+    color: #384994;
+    position: relative;
+    font-size: 16px;
+    left: 240px;
+}
+.ajuda:hover{
+    text-decoration: underline;
+}
+.criacao, .analise{
+    color: #FF7655;
+    font-size: 16px;
+    font-weight: 400;
+}
+.criacao:hover,.analise:hover{
+    text-decoration: underline;
+}
+.criacao{
+    position: relative;
+    right: 40px;
+}
+.analise{
+    position: relative;
+    right: 100px;
+}
+.texto_inicial{
+    color: #0B1B54;
+    text-align: center;
+    position: relative;
+    left: 55%;
+    font-size: 50px;
+    margin-top: 100px;
+}
+.descricao{
+    text-align: center;
+    color: #0B1B54;
+    position: relative;
+    left: 55%;
+    font-size: 22px;
+}
+.negrito1,.negrito2{
+    color: #407BFF;
+    font-weight: bold;
+}
+.saiba_mais{
+    background-color: #FF7655;
+    scale: 130%;
+    margin-left: 700px;
+    margin-top: 22px;
+}
+#saiba{
+    color: white;
+}
+#onda{
+    scale: 140%;
+    margin-top: 50px;
+}
+/*Seção 2*/
+.secao2{
+    background-color: #384994;
+    margin-top: 15px;
+    width: 100vw;
+    height: 3080px;
+}
+
+.titulos-secao{
+    font-size: 50px;
+}
+#primeiro-titulo{
+    color: white;
+    display: flex;
+    margin-left: 900px;
+    position: relative;
+    margin-top: -500px;   
+}
+.explicacao{
+    color: white;
+    display: flex;
+    font-size: 30px;
+}
+#primeira-explicacao{
+    margin-left: 900px;
+}
+
+#primeira-imagem{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.divisao-secao2{
+    margin-top: 350px;
+    border: 2px solid #2B4689;
+}
+#segunda-linha{
+    margin-top: -100px;
+}
+#segundo-titulo{
+    color: white;
+    margin-left: 555px;
+    margin-top: 175px;
+}
+#segunda-imagem{
+    margin-left: 770px;
+    position: relative;
+    bottom: 400px;
+    scale: 120%;
+}
+.subtitulo{
+    color: white;
+    font-size: 42px;
+    margin-top: 280px;
+}
+#segunda-explicacao,.subtitulo{
+    margin-left: 145px;
+}
+#segunda-explicacao{
+    font-size: 35px;
+}
+#terceira-imagem{
+    scale: 120%;
+    position: relative;
+    bottom: 350px;
+    margin-left: 135px;
+}
+#segundo-subtitulo, #terceira-explicacao{
+    margin-left: 780px;
+    position: relative;
+    bottom: 900px;
+}
+#quarta-explicacao, #terceiro-subtitulo{
+    margin-left: 145px;
+    position: relative;
+    bottom: 820px;
+}
+#quarta-imagem{
+    margin-left: 780px;
+    position: relative;
+    scale: 120%;
+    bottom: 1200px;
+}
+
+/*Seção 3*/
+
+.secao3{
+    background-color: #F8F9FF;
+    margin-top: -100px;
+    width: 100vw;
+    height: 1000px;
+}
+#terceiro-titulo{
+    color: #0B1B54;
+    margin-top: 200px;
+    margin-left: 510px;
+}
+#beneficios{
+    color: #0B1B54;
+    text-align: center;
+    left: 55%;
+    font-size: 50px;
+    margin-top: 190px;
+}
+#imagem-secao3{
+    margin-top: 100px;
+    margin-left: 190px;
+    scale: 100%;
+}
+table{
+    border-spacing: 50px;
+    margin-left: 60px;
+    margin-top: 50px;
+    color: #0B1B54;
+}
+.elemento-beneficios{
+    background-color: white;
+    border: 4px solid #FF7655;
+    width: 280px;
+    height: 400px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+}
+.circulos{
+    width: 70px;
+    height: 70px;
+    padding: 17px;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 90px;
+    position: relative;
+    bottom: 38px;
+}
+#circulo-laranja{
+    background-color: #FFC9A7;
+    margin-top: 20px;
+}
+#circulo-azul-claro{
+    background-color: #DBE7FF;
+    margin-top: 20px;
+}
+#papel{
+    scale: 110%;
+    margin-top: 8px;
+    margin-left: 3px;
+}
+#circulo-cinza{
+    background-color: #E3ECF3;
+}
+#interface{
+    scale: 120%;
+    margin-top: 10px;
+}
+#circulo-azul{
+    background-color: #ABB8F2;
+    margin-top: 20px;
+}
+#prancheta{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.subtitulo-secao3{
+    font-size: 20px;
+}
+.texto-explicativo{
+    color: #818699;
+    padding: 10px;
+    font-weight: 400;
+}
+.segunda-divisao{
+    border: 2px solid #EBEEFF;
+    margin-top: 96px;
+}
+
+/*Seção 4*/
+
+.secao4{   
+    background-color: #F8F9FF;
+    margin-top: -100px;
+    width: 100vw;
+    height: 1000px;
+}
+#explicacao-secao4{
+    color: black;
+}
+.titulos-secao{
+    color: #0B1B54;
+    align-items: center;
+    margin-left: 595px;
+}
+.quadro{
+    background-color: #FFF;
+    box-shadow: 0 6px 15px rgba(199, 206, 255, 0.36);
+    width: 1325px;
+    border-radius: 30px;
+    margin-left: 100px;
+}
+#quadro-colaboradores{
+    height: 675px;
+    margin-top: 100px;
+}
+#imagem-colaborador{
+    position: relative;
+    left: 100px;
+    scale: 110%;
+}
+.nomes-colaboradores{
+    color: #0B1B54;
+    font-size: 47px;
+    margin-left: 600px;
+    font-weight: 600;
+    position: relative;
+    top: 110px;
+}
+#explicacao-secao4{
+    color: #384994;
+    margin-left: 600px;
+    position: relative;
+    bottom: 375px;
+    font-weight: 400;
+}
+.icones-redes{
+    position: relative;
+    bottom: 400px;
+}
+#github{ 
+    scale: 113%;
+    margin-left: 725px;
+    position: relative;
+    bottom: 458px;  
+}
+#insta{
+    width: 28px;
+    height: 28px;
+    background-color: #FFC3BD;
+    padding: 17px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 600px;
+    margin-top: 85px;
+    
+}
+#insta img{
+    scale: 58%;
+    height: auto;
+}
+.botao-carrossel{
+    padding: 20px;
+    width: 65px;
+    height: 65px;
+    border: 3px solid #FF7655;
+    border-radius: 50%;
+    background-color: #FFF;
+    position: relative;
+    bottom: 420px;
+}
+.botao-carrossel img{
+    scale: 115%;
+    height: auto;
+    margin-left: 3px;
+}
+.botao-carrossel:hover{
+    background-color: #E7E7E8;
+}
+#avancar{
+    margin-left: 750px;
+}
+
+/* Seção 5*/
+
+.secao5{
+    width: 100vw;
+    height: 950px;
+}
+#quadro-ajuda{
+    height: 550px;
+}
+
+#quinto-titulo{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 20px;
+    margin-left: 550px;
+}
+#meios-contato{
+    font-size: 35px;
+    font-weight: bolder;
+    margin-left: 100px;
+    color: #0B1B54;
+    position: relative;
+    top: 50px;
+}
+#subtitulo-secao5{
+    color: #677196;
+    font-size: 25px;
+    margin-left: 20%;
+    position: relative;
+    bottom: 35px;
+
+}
+#botao-envio{
+    background-color: #FF7655;
+    scale: 140%;
+    color: #FFF;
+    position: relative;
+    left: 725px;
+    bottom: 485px;
+}
+#botao-envio:hover{
+    background-color: #D3422C;
+    color: #FFF;
+}
+label{
+    border-style: none;
+    border: 2 px solid #BFD4E3;
+}
+
+.dados-sinara{
+    color: #0B1B54;
+    font-size: 25px;
+}
+#numero-sinara{
+    margin-left: 160px;
+    position: relative;
+    bottom: 63px;
+}
+.contatos{
+    display: flex;
+    justify-content: space-between;
+}
+#telefone-icon{
+    margin-left: 100px;
+    position: relative;
+    margin-top: 100px;
+    scale: 120%;
+}
+#email-icon{
+    scale: 110%;
+    margin-left: 100px;
+    margin-top: 10px;
+    position: relative;
+    bottom: 45px;
+}
+#email-sinara{
+    margin-left: 165px;
+    position: relative;
+    bottom: 113px;
+}
+#insta-icon{
+    scale: 61.5%;
+    margin-left: 43px;
+    position: relative;
+    bottom: 50px;
+}
+#insta-sinara{
+    position: relative;
+    bottom: 182px;
+    left: 12%;
+}
+
+.campos{
+    border-style: none;
+    border: 3.5px solid #BFD4E3;
+    background-color: #FFF;
+    border-radius: 20px;
+    display: block;
+    box-sizing: border-box;
+    justify-content: space-around;
+    position: relative;
+    left: 700px;
+    color: #0B1B54;
+    text-align: left;
+    width: 500px;
+    font-size: 22px;  
+     
+}
+.campos::placeholder{
+    color: #0B1B54;
+    letter-spacing: 1.5px;
+    font-size: 22px;
+    text-indent: 0;
+    position: static;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#nome-campo{
+    padding-left: 115px;
+    height: 80px;
+    bottom: 475px;
+}
+#duvida-campo{
+    padding-top: 20px;
+    padding-bottom: 140px;
+    padding-left: 30px;
+    height: 150px;
+    bottom: 520px;
+    resize: vertical;
+    min-width: 150px;
+    max-height: 200px;
+    scrollbar-width: none;
+}
+#duvida-campo::-webkit-scrollbar{
+    display: none;
+}
+
+.campos:focus{
+    border-style: none;
+    border: 3.5px solid #BFD4E3;
+    outline:#BFD4E3;
+}
+#enviar{
+    color: #FFF;
+}
+#person-icon{
+    position: relative;
+    scale: 110%;
+    bottom: 98.5%;
+    left: 726px;
+}
+#linha-campo{
+    border: 1.8px solid #BFD4E3;
+    width: 43px;
+    transform: rotate(90deg);
+    position: relative;
+    bottom: 580px;
+    left: 130px;
+}
+.footer{
+    display: block;
+    background-color: #384994;
+    color: #FFF;
+    padding: 20px;
+    text-align: center;
+    font-size: 17px;
+    width: 100vw;
+    height: 70px;
+    position: relative;
+    top: 120px;
+}
